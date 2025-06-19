@@ -1,0 +1,19 @@
+.box {
+    background-color: green;
+    height: 400px;
+    width: 400px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover {
+    /* transform: rotate(90deg);
+    transform: scale(2); */
+    transform: translate(500px);
+}
+
+p {
+    font-size: 30px;
+}

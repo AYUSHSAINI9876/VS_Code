@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .container {
+            width: 100%;
+            height: 100%;
+            padding: 4rem;
+            display: grid;
+            gap: 1rem;
+            background-color: pink;
+            border: 2px solid green;
+            /* grid-template-columns: repeat(3, 1fr); */
+            grid-template-columns: repeat(3, 1fr);
+        }
+        
+        .item {
+            padding: 2rem;
+            height: 150px;
+            width: 150px;
+            border: 5px solid blue;
+            background-color: red;
+        }
+        
+        #rotateX:hover {
+            transform: perspective(300px)rotateX(270deg);
+        }
+        
+        #rotateY:hover {
+            transform: rotateY(45deg);
+        }
+        
+        #rotateZ:hover {
+            transform: rotateZ(90deg);
+        }
+        
+        #translateX:hover {
+            transform: translateX(100px);
+        }
+        
+        #translateY:hover {
+            transform: translateY(50px);
+        }
+        
+        #translateZ:hover {
+            transform: perspective(300px)translateZ(120px);
+        }
+        
+        #scaleX:hover {
+            transform: scaleX(1.5);
+        }
+        
+        #scaleY:hover {
+            transform: scaleY(2);
+        }
+        
+        #scaleZ:hover {
+            transform: perspective(300px)scaleZ(5);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item" id="rotateX">rotateX</div>
+        <div class="item" id="rotateY">rotateY</div>
+        <div class="item" id="rotateZ">rotateZ</div>
+        <div class="item" id="translateX">translateX</div>
+        <div class="item" id="translateY">translateY</div>
+        <div class="item" id="translateZ">translateZ</div>
+        <div class="item" id="scaleX">scaleX</div>
+        <div class="item" id="scaleY">scaleY</div>
+        <div class="item" id="scaleZ">scaleZ</div>
+    </div>
+</body>
+
+</html>

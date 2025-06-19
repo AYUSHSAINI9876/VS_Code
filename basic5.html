@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <style>
+        .container {
+            background-color: beige;
+            border: 5px solid black;
+            margin: 2px;
+            padding: 2px;
+            display: flex;
+        }
+        
+        .box {
+            height: 400px;
+            width: 400px;
+            background-color: blue;
+            border: 3px solid black;
+        }
+        
+        @media (min-width:300px) and (max-width:500px) {
+            .box {
+                background-color: green;
+            }
+        }
+        
+        #box1 {
+            background-color: aqua;
+        }
+        
+        #box2 {
+            background-color: green;
+        }
+        
+        #box3 {
+            background-color: red;
+        }
+        
+        #box4 {
+            background-color: yellow;
+        }
+        
+        @media (min-width:640px) {
+            .container {
+                flex-direction: row;
+            }
+        }
+        
+        @media (max-width:640px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1">Box1</div>
+        <div class="box" id="box2">Box2</div>
+        <div class="box" id="box3">Box3</div>
+        <div class="box" id="box4">Box4</div>
+    </div>
+</body>
+
+</html>

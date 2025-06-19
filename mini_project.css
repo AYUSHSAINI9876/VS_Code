@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+}
+
+.main_box {
+    background: url(https://i.pinimg.com/736x/c3/07/e2/c307e2630fda0c63faf0d4d8c882c30c.jpg);
+    height: 100vh;
+    image-orientation: right;
+}
+
+.btn_one {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 16px;
+    line-height: 60px;
+}
+
+.sidebar_menu {
+    position: fixed;
+    height: 100vh;
+    width: 300px;
+    background-color: rgba*(255, 255, 255, 0.1);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+}
+
+.sidebar_menu.logo {
+    position: 100%;
+    width: 100%;
+    line-height: 60px;
+}
+
+.sidebar_menu.logo a {
+    position: fixed;
+    left: 50px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-weight: 20px;
+}
+
+.sidebar_menu.btn_two {
+    font-size: 25px;
+    color: grey;
+    line-height: 60px;
+    position: absolute;
+    left: 275px;
+}
+
+.sidebar_menu.menu {
+    position: absolute;
+    width: 100%;
+    top: 80px;
+}
+
+.sidebar_menu.menu li {
+    margin-top: 6px;
+    padding: 10px 20px;
+}
