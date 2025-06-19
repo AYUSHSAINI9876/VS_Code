@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -39,3 +40,6 @@ int main()
     }
     return 0;
 }
+=======
+rows
+>>>>>>> 4682db871cb4d972829b25f2f37231b272c68a04
